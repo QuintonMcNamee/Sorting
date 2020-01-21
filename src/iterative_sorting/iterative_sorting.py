@@ -37,6 +37,9 @@ def selection_sort( arr ):
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
+    if arr == []:
+        return arr
+        
     looped_counter = 0
     # 1. Loop through your array
     for x in arr:
